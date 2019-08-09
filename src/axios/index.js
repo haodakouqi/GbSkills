@@ -25,7 +25,7 @@ axios.interceptors.response.use(
   },
   error => {
     if (error.code === 'ECONNABORTED' && error.message.indexOf('timeout') !== -1) {
-      Message.error('服务器超时！')
+      // Message.error('服务器超时！')
     }
     // const config = error.config
     // 超时处理
