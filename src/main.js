@@ -14,7 +14,7 @@ Vue.prototype.$axios = axios
 // 注册common组件
 Object.keys(components).forEach(componentName => {
   // eslint-disable-next-line
-  Vue.component(componentName, components[componentName])
+  Vue.component(components[componentName].name, components[componentName])
 })
 
 // 注册common方法

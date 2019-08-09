@@ -1,4 +1,5 @@
-// import GlIpInput from './galaxy-ip-input'
+import link from './link'
 
 export default {
+    link
 }
